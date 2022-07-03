@@ -115,6 +115,11 @@ yargs.command({
       demandOption: true,
       type: 'string',
     },
+    body: {
+      describe: 'Note description',
+      demandOption: true,
+      type: 'string',
+    },
   },
   handler: function (argv) {
     console.debug('Title: ', argv.title);
