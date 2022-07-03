@@ -130,6 +130,14 @@ yargs.command({
   },
 });
 
+yargs.command({
+  command: 'read',
+  describe: 'Read out a note',
+  handler: function () {
+    console.debug('Reading a note');
+  },
+});
+
 // add, remove, read, list notes.
 
 console.debug(yargs.argv);
