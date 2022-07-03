@@ -117,7 +117,7 @@ yargs.command({
     },
   },
   handler: function (argv) {
-    console.debug('Adding a new note', argv);
+    console.debug('Title: ', argv.title);
   },
 });
 
