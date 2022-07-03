@@ -111,18 +111,19 @@ yargs.command({
   describe: 'Add a new note',
   builder: {
     title: {
-      decsribe: 'Note title',
+      decsribe: 'Note Title',
       demandOption: true,
       type: 'string',
     },
     body: {
-      describe: 'Note description',
+      describe: 'Note Body',
       demandOption: true,
       type: 'string',
     },
   },
   handler: function (argv) {
     console.debug('Title: ', argv.title);
+    console.debug('Body: ', argv.body);
   },
 });
 
