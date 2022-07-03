@@ -150,4 +150,5 @@ yargs.command({
 
 // add, remove, read, list notes.
 
-console.debug(yargs.argv);
+// console.debug(yargs.argv);
+yargs.parse();
