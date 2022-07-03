@@ -114,6 +114,7 @@ yargs.command({
   },
 });
 
+// Create remove command.
 yargs.command({
   command: 'remove',
   describe: 'Remove a note',
@@ -122,6 +123,7 @@ yargs.command({
   },
 });
 
+// Create list command.
 yargs.command({
   command: 'list',
   describe: 'List your notes',
@@ -130,6 +132,7 @@ yargs.command({
   },
 });
 
+// Create read command.
 yargs.command({
   command: 'read',
   describe: 'Read a note',
