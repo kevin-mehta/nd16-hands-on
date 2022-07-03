@@ -124,7 +124,7 @@ yargs.command({
 
 yargs.command({
   command: 'list',
-  describe: 'List out all notes',
+  describe: 'List your notes',
   handler: function () {
     console.debug('Listing out all notes');
   },
