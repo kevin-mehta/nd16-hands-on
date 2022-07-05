@@ -114,6 +114,22 @@ yargs.command({
   },
 });
 
+yargs.command({
+  command: 'remove',
+  describe: 'Remove a note',
+  handler: function () {
+    console.debug('Removing a note');
+  },
+});
+
+yargs.command({
+  command: 'list',
+  describe: 'List out all notes',
+  handler: function () {
+    console.debug('Listing out all notes');
+  },
+});
+
 // add, remove, read, list notes.
 
 console.debug(yargs.argv);
