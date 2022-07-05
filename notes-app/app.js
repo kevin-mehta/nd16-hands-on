@@ -105,5 +105,3 @@ const yargs = require('yargs');
 // Customize "yargs" version.
 yargs.version('1.0.0');
 console.debug(yargs.argv);
-
-
