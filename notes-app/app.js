@@ -105,6 +105,15 @@ const yargs = require('yargs');
 // Customize "yargs" version.
 yargs.version('1.0.0');
 
+// Create add command.
+yargs.command({
+  command: 'add',
+  describe: 'Add a new note',
+  handler: function () {
+    console.debug('Adding a new note');
+  },
+});
+
 // add, remove, read, list notes.
 
 console.debug(yargs.argv);
