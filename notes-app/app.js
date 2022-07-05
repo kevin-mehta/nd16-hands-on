@@ -99,9 +99,11 @@ if (command === 'add') {
 // const argv = yargs(hideBin(process.argv)).argv;
 // console.debug(argv);
 
-const yargs = require('yargs');
+// Changes for the yargs@12.0.2.
 console.debug(process.argv);
-console.debug(yargs.argv);
-
+const yargs = require('yargs');
 // Customize "yargs" version.
 yargs.version('1.0.0');
+console.debug(yargs.argv);
+
+
