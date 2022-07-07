@@ -93,6 +93,6 @@ if (command === 'add') {
 
 // Installed Node package: "yargs".
 
-const yargs = require('yargs');
+const yargs = require('yargs/yargs');
 console.debug(process.argv);
 console.debug(yargs.argv);
