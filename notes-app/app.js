@@ -76,6 +76,8 @@ const greenMsg = chalk.green.bold.inverse('Success!');
 // const greenMsg = chalk.red.bold.bgWhite('Success!');
 console.debug('greenMsg: ', greenMsg);
 
+// Installed "nodemon" module.
+
 /**
  * 4.2. Getting Input from Users.
  */
