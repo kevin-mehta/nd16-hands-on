@@ -75,4 +75,4 @@ console.debug('isValidUrl: ', isValidUrl);
 const chalk = require('chalk');
 const greenMsg = chalk.green.bold.inverse('Success!');
 // const greenMsg = chalk.red.bold.bgWhite('Success!');
-console.debug('greenMsg: ', greenMsg);
+console.debug('greenMsg:: ', greenMsg);
