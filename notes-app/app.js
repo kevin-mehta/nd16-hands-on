@@ -71,3 +71,7 @@ console.debug('isValidUrl: ', isValidUrl);
  * 3.4. Importing npm Modules.
  * Challenge.
  */
+import chalk from 'chalk';
+// const chalk = require('chalk');
+const strSuccessMsg = chalk.green('Success!');
+console.debug('strSuccessMsg: ', strSuccessMsg);
