@@ -17,5 +17,11 @@ try {
  * 3.3. Importing your own files.
  */
 // require('../utils.js');
-const utils = require('../utils.js');
-console.debug("cityName: ", cityName);
+// const cityName = require('../utils.js');
+// console.debug('cityName: ', cityName);
+
+// const city = require('../utils.js');
+// console.debug('cityName: ', city);
+
+const result = require('../utils.js');
+console.debug('result: ', result(1, 2));
