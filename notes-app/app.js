@@ -23,5 +23,15 @@ try {
 // const city = require('../utils.js');
 // console.debug('cityName: ', city);
 
-const result = require('../utils.js');
-console.debug('result: ', result(1, 2));
+const sum = require('../utils.js');
+console.debug('sum: ', sum(4, -2));
+
+// const utils = require('../utils.js');
+// console.debug("city: ", utils.cityName);
+
+/**
+ * 3.3. Importing your own files.
+ * Challenge.
+ */
+ const getNotes = require('./notes.js');
+ console.debug("Notes: ", getNotes());

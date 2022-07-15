@@ -6,4 +6,6 @@ const cityName = 'Mumbai';
 const add = function (a, b) {
   return a + b;
 };
+// module.exports = cityName;
 module.exports = add;
+// module.exports;
