@@ -34,4 +34,5 @@ console.debug('sum: ', sum(4, -2));
  * Challenge.
  */
  const getNotes = require('./notes.js');
- console.debug("Notes: ", getNotes());
+ const msg = getNotes();
+ console.debug("msg: ", msg);
