@@ -73,6 +73,6 @@ console.debug('isValidUrl: ', isValidUrl);
  */
 // import chalk from 'chalk';
 const chalk = require('chalk');
-const strSuccessMsg = chalk.green.bold.inverse('Success!');
-// const strSuccessMsg = chalk.red.bold.bgWhite('Success!');
-console.debug('strSuccessMsg: ', strSuccessMsg);
+const greenMsg = chalk.green.bold.inverse('Success!');
+// const greenMsg = chalk.red.bold.bgWhite('Success!');
+console.debug('greenMsg: ', greenMsg);
