@@ -93,8 +93,13 @@ if (command === 'add') {
 
 // Installed Node package: "yargs".
 
-const yargs = require('yargs/yargs')
-const { hideBin } = require('yargs/helpers')
-const argv = yargs(hideBin(process.argv)).argv
+// const yargs = require('yargs/yargs');
+// const { hideBin } = require('yargs/helpers');
+// const argv = yargs(hideBin(process.argv)).argv;
+
+const yargs = require('yargs');
 console.debug(process.argv);
 console.debug(argv);
+
+// Customize "yargs" version.
+yargs.version('1.0.0');
