@@ -59,6 +59,10 @@ const validator = require('validator');
 //Import only a subset of the library:
 // import isEmail from 'validator/lib/isEmail';
 
-const email = "abc@yopmail.com";
+const email = 'abc@yopmail.com';
 const isValidEmail = validator.isEmail(email);
-console.debug("isValidEmail: ", isValidEmail);
+console.debug('isValidEmail: ', isValidEmail);
+
+const url = 'https://linktr.ee/kevin.mehta';
+const isValidUrl = validator.isURL(url);
+console.debug('isValidUrl: ', isValidUrl);
